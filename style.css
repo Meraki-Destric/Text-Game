@@ -1,0 +1,32 @@
+#active {
+    background-color: blue;
+}
+
+#inactive {
+    background-color: white;
+}
+
+#occupied {
+    background-color: black;
+}
+
+.mapTile {
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 130px;
+    padding: 10px 0;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    border-radius: 0.1em;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border: 0;
+}
+
+#map-grid {
+    background-color: bisque;
+    max-width: 20%;
+    text-align: center;
+}
