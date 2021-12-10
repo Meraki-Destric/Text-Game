@@ -1,0 +1,71 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2b58a1;
+    color:white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #112b55;
+}
+
+#active {
+    background-color: #112b55;
+}
+
+#inactive {
+    background-color: #2b58a1;
+}
+
+#occupied {
+    background-color: #8341af;
+}
+
+.mapArea{
+    border-right: 10px solid #112b55;
+    border-left: 5px solid #112b55;
+}
+
+.buttons {
+    margin: 0;
+    padding: 0;
+    border-top: 5px solid #112b55;
+
+}
+
+.mapTile {
+    display: inline-block;
+    
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 130px;
+    padding: 10px 0;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    border-radius: 0.1em;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border: 0;
+}
+
+#map-grid {
+    background-color: #2b58a1;
+    height: 100%;
+    text-align: center;
+}
+
+button {
+    background-color: #8341af;
+    border: 1px solid #8341af;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    color: white;
+    outline: none;
+}

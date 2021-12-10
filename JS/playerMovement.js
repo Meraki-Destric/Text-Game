@@ -6,7 +6,7 @@ function movementButtons() {
     buttonContainer.append("<button id ='down'>Down</button>")
     buttonContainer.append("<button id='left'>Left</button>")
 
-    $("body").append(buttonContainer)
+    $(".buttons").append(buttonContainer)
 
     $("#up").on('click', () => {
         let occupiedTile = $("#occupied")
