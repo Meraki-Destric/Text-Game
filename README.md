@@ -18,6 +18,7 @@ Demo: https://meraki-destric.github.io/Text-Game/
 <li>Implement the Options for players</li>
 <li>Player Stats and Inventory</li>
 <li>Main Menu</li>
+<li>An Actual Story</li>
 <li>Interaction with buttons using keyboard</li>
 
 ### Special Thanks
