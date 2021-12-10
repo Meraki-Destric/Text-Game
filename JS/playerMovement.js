@@ -241,10 +241,12 @@ function nextMap(direction) {
         destroyMap();
         createMapTiles(5, 5);
         colourMap(currentMap[currentMap.length - 1].exit);
+        assignText();
     } else {
         destroyMap();
         createMapTiles(5, 5);
         colourMap(currentMap[currentMap.length - 1].entrance);
+        assignText();
     }
 }
 

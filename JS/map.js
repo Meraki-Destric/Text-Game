@@ -40,8 +40,8 @@ let testTiles = [{
 let testTiles3 = [{
         row: 1,
         col: 1,
-        name: "Tutorial Room",
-        description: "Where we torture you with useless information room",
+        name: "Another Tutorial Room",
+        description: "Haha, bet you thought you managed to escape the tutorial, jokes on you. You're stuck here",
         exitPoint: true,
         exitDirection: 'left',
         startingPoint: true,
@@ -49,34 +49,34 @@ let testTiles3 = [{
     {
         row: 2,
         col: 1,
-        name: "Tutorial Room 2",
+        name: "Tutorial Hallway",
         description: "Where we leave you to suffer for all eternity"
     },
     {
         row: 2,
         col: 2,
-        name: "Tutorial Room 3",
+        name: "Tutorial Hallway",
         description: "Where we leave you to suffer for all eternity"
     },
     {
         row: 2,
         col: 3,
-        name: "Tutorial Room 4",
+        name: "Tutorial Hallway",
         description: "Where we leave you to suffer for all eternity"
     },
     {
         row: 2,
         col: 4,
-        name: "Tutorial Room 5",
-        description: "Where we leave you to suffer for all eternity",
+        name: "The truth",
+        description: "As this is a test component, there is no escape",
     }
 ]
 
 let testTiles2 = [{
         row: 1,
         col: 1,
-        name: "Tutorial Room",
-        description: "Where we torture you with useless information room",
+        name: "Another Tutorial Room",
+        description: "Haha, bet you thought you managed to escape the tutorial, jokes on you. You're stuck here",
         entrance: true,
         exitDirection: 'left',
         startingPoint: true,
@@ -84,26 +84,26 @@ let testTiles2 = [{
     {
         row: 2,
         col: 1,
-        name: "Tutorial Room 2",
+        name: "Tutorial Hallway",
         description: "Where we leave you to suffer for all eternity"
     },
     {
         row: 2,
         col: 2,
-        name: "Tutorial Room 3",
+        name: "Tutorial Hallway",
         description: "Where we leave you to suffer for all eternity"
     },
     {
         row: 2,
         col: 3,
-        name: "Tutorial Room 4",
+        name: "Tutorial Hallway",
         description: "Where we leave you to suffer for all eternity"
     },
     {
         row: 2,
         col: 4,
-        name: "Tutorial Room 5",
-        description: "Where we leave you to suffer for all eternity",
+        name: "The truth",
+        description: "As this is a test component, there is no escape",
     }
 ]
 
